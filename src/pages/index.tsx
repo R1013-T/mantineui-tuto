@@ -7,6 +7,7 @@ export default function Home() {
       <Link href="/button">button</Link>
       <Link href="/group">group</Link>
       <Link href="/grid">grid</Link>
+      <Link href="/form">form</Link>
     </Layout>
   )
 }
