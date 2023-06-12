@@ -1,7 +1,7 @@
-import useStore from '@/store'
-import { supabase } from '@/utils/supabase'
 import { NextPage } from 'next'
 import { useEffect } from 'react'
+import useStore from '@/store'
+import { supabase } from '@/utils/supabase'
 import Auth from '@/components/Auth'
 import DashBoard from '@/components/DashBoard'
 
