@@ -98,6 +98,20 @@ const DashBoard = () => {
           >
             Dialog
           </Menu.Item>
+          <Menu.Item
+            icon={<Settings size={16} />}
+            component={NextLink}
+            href="/modal"
+          >
+            Modal
+          </Menu.Item>{' '}
+          <Menu.Item
+            icon={<Settings size={16} />}
+            component={NextLink}
+            href="/avatar"
+          >
+            Avatar
+          </Menu.Item>
         </Menu>
       </Center>
       <Center>
